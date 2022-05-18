@@ -21,9 +21,9 @@ public class PlayerController : MonoBehaviour
     void Update()
     {
         //keep the player in bounds
-        if(transform.position.x < -xRange) {
+        if (transform.position.x < -xRange) {
             transform.position = new Vector3(-xRange, transform.position.y, transform.position.z);
-        } else if(transform.position.x > xRange) {
+        } else if (transform.position.x > xRange) {
             transform.position = new Vector3(xRange, transform.position.y, transform.position.z);
         }
 
