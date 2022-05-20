@@ -9,6 +9,8 @@ public class PlayerControllerM : MonoBehaviour
     private float speed = 37.0f;
     private float xRange = 20.0f;
 
+    public AudioSource fireSound; 
+
     public GameObject projectilePrefab; //instantiate new object called 'projectilePrefab' in update()
 
     // Start is called before the first frame update
@@ -32,6 +34,8 @@ public class PlayerControllerM : MonoBehaviour
 
         if(Input.GetKeyDown(KeyCode.Space)) {
             
+            fireSound.Play();
+
             // Launch a projectile from the player
             //Instantiate(projectilePrefab); -> launches pizza forward, but doesn't launch at player's position.
             Instantiate(projectilePrefab, transform.position, projectilePrefab.transform.rotation);

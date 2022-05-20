@@ -6,7 +6,7 @@ public class CollisionSoundM : MonoBehaviour
 {
     public AudioSource SoundEffect;
 
-    void OnCollisionEnter(Collision collision)
+    public void OnCollisionEnter(Collision collision)
     {
         SoundEffect.Play();    
     }

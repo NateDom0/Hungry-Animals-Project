@@ -677,7 +677,6 @@ GameObject:
   - component: {fileID: 7972011942900317765}
   - component: {fileID: -7786338557433406434}
   - component: {fileID: -2153369478219874135}
-  - component: {fileID: 1802864936970771409}
   m_Layer: 0
   m_Name: MooseM
   m_TagString: Untagged
@@ -766,19 +765,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 10
---- !u!114 &1802864936970771409
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4355654874219077742}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f14451fc1109b1c41a222627c184a935, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  SoundEffect: {fileID: 0}
 --- !u!1 &4355654874219084648
 GameObject:
   m_ObjectHideFlags: 0
