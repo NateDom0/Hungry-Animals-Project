@@ -4,5 +4,11 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 0
+    path: Assets/Scenes/P2Mod1.unity
+    guid: cc5297ce5eb06504cb8c3d2b125654e6
+  - enabled: 1
+    path: Assets/Challenge 2/Challenge 2.unity
+    guid: f695fe0c51d8449d2b49648dad174255
   m_configObjects: {}

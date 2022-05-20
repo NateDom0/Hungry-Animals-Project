@@ -7,7 +7,9 @@ public class PlayerControllerX : MonoBehaviour
     public GameObject dogPrefab;
 
     // use to control time b/w inputs
-    private float timer = 0.0f;
+    private float timer = 0.0f; 
+
+    public AudioSource barkSound;
 
     // Update is called once per frame
     void Update()
@@ -17,6 +19,8 @@ public class PlayerControllerX : MonoBehaviour
         // On spacebar press, send dog
         if (Input.GetKeyDown(KeyCode.Space) && timer <=0)
         {
+            barkSound.Play();
+
             Instantiate(dogPrefab, transform.position, dogPrefab.transform.rotation);
             timer += 1.5f; 
         }
