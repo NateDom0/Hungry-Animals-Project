@@ -13,12 +13,6 @@ public class PlayerControllerM : MonoBehaviour
 
     public GameObject projectilePrefab; //instantiate new object called 'projectilePrefab' in update()
 
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
     // Update is called once per frame
     void Update()
     {

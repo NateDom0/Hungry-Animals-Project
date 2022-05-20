@@ -4,18 +4,6 @@ using UnityEngine;
 
 public class DetectCollisionsM : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-
     // override a function that already exists in the MonoBehaviour class
     private void OnTriggerEnter(Collider other)
     {

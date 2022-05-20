@@ -8,12 +8,6 @@ public class MoveForwardM : MonoBehaviour
 {
     public float speed = 40.0f; //keep public in order to change speeds for animals and pizza
 
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
     // Update is called once per frame
     void Update()
     {
